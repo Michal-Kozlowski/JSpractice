@@ -1,0 +1,74 @@
+body {
+  font: 13px/1.6 Helvetica, Arial, FreeSans, sans-serif;
+  background: #333;
+  min-height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ddd; }
+
+p {
+  color: #aaa; }
+
+section {
+  margin-bottom: 80px; }
+
+.accordion .active {
+  background-color: #555; }
+.accordion p {
+  display: none;
+  text-align: justify;
+  padding-bottom: 20px;
+  width: 80%;
+  margin: 0 6% 0 14%; }
+.accordion article {
+  background-color: #222;
+  border: 2px #ccc solid;
+  border-radius: 5px; }
+
+.container {
+  width: 60%;
+  margin: auto; }
+  .container h1 {
+    text-align: center; }
+
+article > h3 {
+  padding-left: 20px; }
+
+.tab p {
+  background-color: #555;
+  border: 2px #ccc solid;
+  border-radius: 5px;
+  text-align: justify;
+  padding: 10px 10%;
+  width: 80%;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 30px;
+  z-index: 1; }
+.tab h3 {
+  border: 2px #555 solid;
+  border-radius: 5px 5px 0 0;
+  padding: 2px 20px;
+  margin: 0;
+  float: left; }
+.tab .border-white {
+  background-color: #555;
+  border: 2px #ccc solid; }
+.tab article {
+  position: relative; }
+
+.test {
+  margin-top: 200px;
+  color: white; }
+
+#wynik {
+  word-wrap: break-word; }
+
+.random_text {
+  height: 200px;
+  overflow-y: scroll; }
+
+.randomarry {
+  height: 50px;
+  overflow: hidden; }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"/>
+    <link rel="stylesheet" href="1.css"></link>
+    <title>JavaScript training</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="accordion">
+        <h1>Astronomical objects</h1>
+        <article id="planet">
+          <h3>Planet</h3>
+          <p>A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.</p>
+        </article>
+        <article id="moon">
+          <h3>Moon</h3>
+          <p>The Moon is an astronomical body that orbits planet Earth, being Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits (its primary).</p>
+        </article>
+        <article id="star">
+          <h3>Star</h3>
+          <p>A star is a luminous sphere of plasma held together by its own gravity. The nearest star to Earth is the Sun, which is 93 million miles away. Many other stars are visible to the naked eye from Earth during the night, appearing as a multitude of fixed luminous points in the sky due to their immense distance from Earth.</p>
+        </article>
+        <article id="nebulae">
+          <h3>Nebulae</h3>
+          <p>A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases. Originally, nebula was a name for any diffuse astronomical object, including galaxies beyond the Milky Way</p>
+        </article>
+        <article id="galaxy">
+          <h3>Galaxy</h3>
+          <p>A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter. The word galaxy is derived from the Greek galaxias (γαλαξίας), literally "milky", a reference to the Milky Way. Galaxies range in size from dwarfs with just a few billion stars to giants with one hundred trillion) stars, each orbiting its galaxy's center of mass</p>
+        </article>
+      </section>
+
+      <section class="tab">
+        <h1>Astronomical objects</h1>
+        <article id="planet">
+          <h3>Planet</h3>
+          <p>A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.</p>
+        </article>
+        <article id="moon">
+          <h3>Moon</h3>
+          <p>The Moon is an astronomical body that orbits planet Earth, being Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the size of the planet that it orbits (its primary).</p>
+        </article>
+        <article id="star">
+          <h3>Star</h3>
+          <p>A star is a luminous sphere of plasma held together by its own gravity. The nearest star to Earth is the Sun, which is 93 million miles away. Many other stars are visible to the naked eye from Earth during the night, appearing as a multitude of fixed luminous points in the sky due to their immense distance from Earth.</p>
+        </article>
+        <article id="nebulae">
+          <h3>Nebulae</h3>
+          <p>A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases. Originally, nebula was a name for any diffuse astronomical object, including galaxies beyond the Milky Way</p>
+        </article>
+        <article id="galaxy">
+          <h3>Galaxy</h3>
+          <p>A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter. The word galaxy is derived from the Greek galaxias (γαλαξίας), literally "milky", a reference to the Milky Way. Galaxies range in size from dwarfs with just a few billion stars to giants with one hundred trillion) stars, each orbiting its galaxy's center of mass</p>
+        </article>
+      </section>
+    </main>
+
+    <div class="test">
+      <div id="fizzbuzz"></div>
+
+      <h2>Mnożacz tekstu</h2>
+      <form>
+        <label>tekst:</label>
+        <input id="tekst"></input>
+        <label>ile razy pomnożyć?:</label>
+        <input id="ile"></input>
+        <button type="button" onclick="xxx()">shazam!</button>
+      </form>
+        <div id="wynik"></div>
+
+      <h2>Odwracacz</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="b"></input>
+        <button type="button" onclick="back()">!mazahs</button>
+      </form>
+      <div class="backward"></div>
+
+      <h2>Test na palindrom</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="pal"></input>
+        <button type="button" onclick="pal()">pal</button>
+      </form>
+      <div class="palindrom"></div>
+
+      <h2>Porząder?</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="abc"></input>
+        <button type="button" onclick="abc()">porząder!</button>
+      </form>
+      <div class="abcd"></div>
+
+      <h2>Uppercase</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="up"></input>
+        <button type="button" onclick="up()">up Up</button>
+      </form>
+      <div class="upup"></div>
+
+      <h2>Prime number?</h2>
+      <form>
+        <label>liczba:</label>
+        <input class="prime"></input>
+        <button type="button" onclick="prime()">is it prime number?</button>
+      </form>
+      <div class="primenumber"></div>
+
+      <h2>Factors (all)</h2>
+      <form>
+        <label>liczba:</label>
+        <input class="factors" placeholder="2162160"></input>
+        <button type="button" onclick="factors()">do dziela</button>
+      </form>
+      <div>Here are the fact(or)s :<span class="factors_anwser"></span></div>
+
+      <h2>Demonetaizer</h2>
+      <form>
+        <label>liczba:</label>
+        <input class="sum"></input>
+        <label>nominały oddzielone spacjami:</label>
+        <input class="nom"></input>
+        <button type="button" onclick="coin()">demonetaizer</button>
+      </form>
+      <div class="coin"></div>
+
+      <h2>Unikator (usuwa powtarzające się znaki)</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="unik"></input>
+        <button type="button" onclick="unik()">sprawię, że Twój tekst będzie niepowtarzalny</button>
+      </form>
+      <div class="unikator"></div>
+
+      <h2>Binary search</h2>
+      <button type="button" onclick="binary()">BS</button>
+      <div class="BS"></div>
+
+      <h2>Random text</h2>
+      <form>
+        <label>how long:</label>
+        <input class="len"></input>
+        <button type="button" onclick="rand()">rand</button>
+      </form>
+      <div class="random_text"></div>
+
+      <h2>Number of occurrence of letter in string</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="ttt"></input>
+        <label>litera:</label>
+        <input class="letter"></input>
+        <button type="button" onclick="letter()">ile liter w tekscie</button>
+      </form>
+      <div class="lettintext"></div>
+
+      <h2>First not repeated</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="notrep"></input>
+        <button type="button" onclick="notrep()">go</button>
+      </form>
+      <div class="notrepeated"></div>
+
+      <h2>Bubble Sort</h2>
+      <div class="arraybefore"></div>
+      <div class="bubble"></div>
+
+      <h2>Merge two sorted arrays</h2>
+      <div class="merge"></div>
+
+      <h2>Merge Sort</h2>
+      <div class="mergesortbefore"></div>
+      <div class="mergesort"></div>
+
+      <h2>Longest palindrom</h2>
+      <form>
+        <label>tekst:</label>
+        <input class="longestpal"></input>
+        <button type="button" onclick="longestpal()">longest palindrom</button>
+      </form>
+      <div class="longestpalindrom"></div>
+
+      <h2>Fibonacci</h2>
+      <form>
+        <label>Number of Fibonacci number:</label>
+        <input class="fibon"></input>
+        <button type="button" onclick="fibonacci()">fibonacci</button>
+      </form>
+      <div class="fibonacci"></div>
+
+      <h2>Random arry</h2>
+      <div class="randomarry"></div>
+      <h2>Bubble sorted random arry</h2>
+      <div class="bubble_arry"></div>
+      <h2>Merge sorted random arry</h2>
+      <div class="mergesort_arry"></div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="1.js"></script>
+  </body>
+</html>
