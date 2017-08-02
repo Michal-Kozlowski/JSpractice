@@ -30,6 +30,7 @@ $(document).ready(function(){
 
 //-----------------------FIZZ BUZZ--------------------------
 
+/* -------OLD--------
 var text = "";
 
 for (var i = 1; i <= 100; i++){
@@ -49,19 +50,16 @@ for (var i = 1; i <= 100; i++){
 };
 document.getElementById("fizzbuzz").innerHTML = text;
 
+*/
+
 for (var i = 1; i <= 100; i++) {
-    if (i % 3 === 0 && i % 5 === 0){
-        console.log("FizzBuzz ");
-    }
-    else if (i % 5 === 0) {
-        console.log("Buzz ");
-    }
-    else if (i % 3 === 0) {
-        console.log("Fizz ");
-    }
-    else {
-        console.log(i + " ");
-    }
+    var t = ""
+
+    if (i % 3 == 0) { t += "Fizz";}
+    if (i % 5 == 0) { t += "Buzz";}
+
+    if (t == "") { t += i;}
+    console.log(t);
 };
 
 //---------------------------MNOŻACZ---------------------------
